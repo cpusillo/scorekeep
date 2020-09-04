@@ -75,6 +75,10 @@ var player1 = {
       if (player1.score || player2.score > 0){
           reset();
       }
+      // Reset game if number is changed to a negative value.
+      if (winningScore < 0){
+          reset();
+      }
   });
 
   
