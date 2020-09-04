@@ -90,6 +90,7 @@ var player1 = {
     player2.reset();
   
     numInput.value = "";
+    winnerText.textContent = "";
   
     winningScoreDisplay = winningScore;
   }
