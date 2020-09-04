@@ -4,7 +4,7 @@ GLOBAL SETTINGS
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url("assets/bokeh.jpg");
+    background: url("bokeh.jpg");
     background-size: cover;
     margin: 0;
 }
