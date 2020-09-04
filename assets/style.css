@@ -73,11 +73,12 @@ button {
 }
 
 #resetBtn {
+    transition: background-color 0.5s ease;
     background-color: #c0392b;
     box-shadow: 0 4px 2px -2px #912c20;
 }
 
-#reset-btn:hover {
+#resetBtn:hover {
     transition: background-color 0.5s ease;
     background-color: #912c20;
 }
